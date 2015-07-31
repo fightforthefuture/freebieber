@@ -1,0 +1,659 @@
+body {
+    background: url(../img/body_background.png);
+    margin: 0; 
+    padding: 0;
+    font-family: "helvetica neue", arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.3;
+    color: #fff;
+}
+
+.disclosure {
+    font-style:italic;
+    font-size: 11px;
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 1135px;
+    margin-bottom: 100px;
+}
+
+.wrap {background: url(../img/wrap_background_alternate.jpg) no-repeat center -21px #050508;}
+
+#alternate {background: url(../img/wrap_background_alternate.jpg) no-repeat center -1px #050508;}
+
+.template_content {
+    background: #fff;
+    margin-left: 65px;
+    margin-right: 65px;
+    color: #2a2a2a;
+    line-height: 1.5;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.template_content h1, 
+.template_content h2, 
+ol.template_content h3, 
+.template_content h4, 
+.template_content h5, 
+.template_content h6 {font-weight: bold; font-size: 15px;} 
+
+.template_content p {margin-bottom: 10px;}
+.template_content ul,
+.template_content ol {margin-left: 20px;}
+.template_content li {margin-bottom: 10px;}
+
+
+a {color: #ff8321;}
+
+/* HEADER */
+
+.headline {
+    text-indent: -9999px;
+    background: url(../img/headline_background.png) no-repeat;
+    height: 68px;
+    width: 993px;
+    display: block;
+    margin: 0 auto;
+}
+
+.signup {
+    background: url(../img/sign_background.png) no-repeat;
+    height: 203px;
+    width: 991px;
+    margin: 0 auto;
+    color: #2a2a2a;
+    text-align: center;
+}
+
+.signup h2 {font-size: 21px; font-weight: bold; padding-top: 20px;} 
+
+.signup p {font-size: 16px;}
+
+.thanks .signup p {padding-top: 30px; font-size: 20px;}
+.thanks .signup h2 {padding-top: 5px; font-size: 40px; padding-bottom: 0; margin-bottom: 0;}
+
+.signup form {margin: 0 auto; width: 522px; padding-top: 10px; margin-bottom: 20px;}
+
+.signup input {
+    background: url(../img/form_email.png) no-repeat; 
+    width: 309px; 
+    height: 42px; 
+    border: 0; 
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    color: #a9a9a9;
+    font-size: 20px;
+    padding-left: 15px;
+    float: left;
+}
+
+.signup button {
+    background: url(../img/form_button.png) no-repeat;
+    width: 198px;
+    height: 42px;
+    border: 0;
+    padding: 0;
+    float: left;
+	font-weight: bold;
+	font-size: 18px;
+	color: #fff;
+	text-shadow: 2px 2px 3px rgba(0,0,0,.7);
+	cursor: pointer;
+}
+
+.signup ul.social {margin-top: 60px; clear: both;}
+.thanks ul.social {margin-top: 20px;}
+
+.signup ul.social li {display: inline; padding-left: 3px; padding-right: 3px;}
+
+.signup ul.social li a {text-indent: -9999px; display: inline-block; width: 90px; height: 31px;}
+
+ul.social li.fb a {width: 109px; background: url(../img/buttons/norm_fb.png) no-repeat;}
+ul.social li.tw a {background: url(../img/buttons/norm_tw.png) no-repeat;}
+ul.social li.gp a {background: url(../img/buttons/norm_gp.png) no-repeat;}
+ul.social li.tum a {background: url(../img/buttons/norm_tum.png) no-repeat;}
+ul.social li.em a {background: url(../img/buttons/norm_em.png) no-repeat;}
+
+.slide {
+    width: 990px;
+    margin: 0 auto;
+    height: 372px;
+    background: #000;
+}
+.panel ol li {display: inline-block;}
+.panel ol li a {display: inline-block; padding: 3px; font-size: 10px;}
+.panel ol li a.active {border: 1px solid white;}
+.panel ol {margin-right: 20px; position: absolute; top: 340px;}
+.panel .small_arrow {padding-left: 10px; padding-right: 13px; position: absolute; top: 340px; margin-left: 135px; text-decoration: none;}
+.panel .small_arrow span {padding-left: 8px;}
+.panel h2 {clear: both; color: #ff8121; font-size: 17px; line-height: 1.4; margin-bottom: 10px;}
+.panel p {margin-bottom: 10px;}
+
+.panel .sharing {position: absolute; top: 370px; width: 191px;}
+
+.panel h5 {font-size: 12px; font-weight: normal; margin-bottom: 3px; color: #aabbdd;}
+
+.panel ul.share li {display: inline;}
+ul.share li a {width: 30px; height: 30px; display: inline-block; text-indent: -9999px; margin-right: 5px;}
+ul.share li.fb a {background: url(../img/buttons/small_fb.png) no-repeat;}
+ul.share li.tw a {background: url(../img/buttons/small_tw.png) no-repeat;}
+ul.share li.gp a {background: url(../img/buttons/small_gp.png) no-repeat;}
+ul.share li.tum a {background: url(../img/buttons/small_tum.png) no-repeat;}
+ul.share li.em a {background: url(../img/buttons/small_em.png) no-repeat;}
+
+.panel {
+    background: url(../img/panel_background.png) no-repeat;
+    float: right;
+    width: 229px;
+    height: 352px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+.recently {
+    background: url(../img/recently_background.png) no-repeat;
+    height: 27px;
+    width: 1001px;
+    margin: 0 auto;
+    margin-top: -4px;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.jailbieber {
+    background: url(../img/jailbieber_background.png) no-repeat;
+    width: 525px;
+    height: 31px;
+    padding-top: 13px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.mids {
+    width: 991px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.wow_hdr {
+	margin: 0 auto;
+    margin-top: 740px;
+    width: 1007px;
+    height: 115px;
+    background: url(../img/wow_hdr.png) no-repeat;
+	clear: both;
+}
+
+.thanks .wow_hdr {margin-top: 740px;}
+
+.wow_main {
+	margin: 0 auto;
+	width: 1007px;
+	background: url(../img/wow_main.png);
+	overflow: auto;
+	color: #2a2a2a;
+}
+
+.wow_main h2 {
+	height: 55px;
+	background: url(../img/video_background.png) no-repeat left;
+	padding-left: 55px;
+	font-size: 22px;
+	color: #2a2a2a;
+}
+
+.wow_main h3 {
+	padding-left: 55px;
+	margin-top: -25px;
+	font-size: 14px;
+	color: #2a2a2a;
+	margin-bottom: 20px;
+}
+
+.wow_main .right_inside h3 {margin-bottom: 22px;}
+
+.left_inside {
+	float: left;
+	width: 590px;
+	margin-left: 25px;
+	clear: both;
+	min-height: 1500px;
+	margin-top: 30px;
+	background: url(../img/left_inside_background.png) no-repeat right center;
+}
+
+.right_inside {
+	float: right;
+	width: 340px;
+	margin-right: 30px;
+	margin-top: 30px;
+}
+
+.right_inside .divider {background: url(../img/right_divider.png) no-repeat; width: 330px; height: 2px; margin-top: 10px; margin-bottom: 20px;}
+.left_inside .divider {background: url(../img/left_divider.png) no-repeat; width: 537px; height: 6px; margin-top: 20px; margin-bottom: 20px;}
+
+.left_inside .large_button {
+	float: right;
+	margin-right: 40px;
+}
+
+.left_inside h5 {
+	font-weight: bold;
+	font-size: 18px;
+	width:250px;
+}
+
+.left_inside h4 {
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 20px;
+}
+
+.left_inside ul {margin-left: 40px; margin-top: 20px;}
+.left_inside ul li {list-style-type: disc; font-size: 16px;}
+
+.left_inside .small_arrow {
+	float: right;
+	margin-right: 40px;
+	margin-top: 30px;
+}
+.wow_btm {
+	width: 1007px;
+	height: 26px;
+	background: url(../img/wow_btm.png) no-repeat;
+		margin: 0 auto;
+}
+
+
+.spot {
+    width: 225px;
+    float: left;
+    margin-bottom: 35px;
+    height: 170px;
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+.primary .spot {padding-right: 15px; width: 210px;} /* width:195 */
+
+.secondary .spot {padding-left: 35px;}
+
+.primary h3, .spot h3 {
+    color: #ff8321; 
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1.3;
+    margin-bottom: 15px;
+}
+
+.felony {
+    width: 427px;
+    height: 272px;
+    background: black;
+    margin-bottom: 100px;
+    margin-right: 40px;
+    float: left;
+}
+
+.primary {
+    overflow: auto;
+    width: 450px;
+    float: left;
+}
+
+h2.center_cta {
+    font-size: 25px;
+    text-align: center;
+    display: block;
+    clear: both;
+    padding-top: 45px;
+}
+
+ul.share_petition {text-align: center; margin-top: 20px;}
+ul.share_petition li {display: inline;}
+a#cta_fb_share, ul.share_petition li a {width: 150px; height: 31px; display: inline-block; text-indent: -9999px; margin-left: 5px; margin-right: 5px; cursor: pointer;}
+a#cta_fb_share {margin-bottom: -3px;}
+a#cta_fb_share, ul.share_petition li.fb a {background: url(../img/buttons/wide_fb.png) no-repeat; width: 169px;}
+ul.share_petition li.tw a {background: url(../img/buttons/wide_tw.png) no-repeat;}
+ul.share_petition li.gp a {background: url(../img/buttons/wide_gp.png) no-repeat;}
+ul.share_petition li.tum a {background: url(../img/buttons/wide_tum.png) no-repeat;}
+
+.lows {overflow: auto;}
+
+.lft {float: left; margin-left: 65px; margin-top: 40px;}
+.rght {float: right; margin-right: 60px; margin-top: 40px;}
+
+.lft .top, .lft .main, .lft .bottom {width: 595px;} 
+.lft .top {background: url(../img/lft_hdr.png) no-repeat; height: 106px;}
+
+.lft .main {background: url(../img/lft_main.png); width: 555px;}
+.lft .bottom {background: url(../img/lft_btm.png) no-repeat; height: 23px;}
+
+.rght .top, .rght .main, .rght .bottom {width: 390px;} 
+.rght .top {background: url(../img/rght_hdr.png) no-repeat; height: 106px;}
+.rght .main {background: url(../img/rght_main.png); width: 350px;}
+.rght .bottom {background: url(../img/rght_btm.png) no-repeat; height: 23px;}
+
+.block {color: #2a2a2a; margin-bottom: 30px;}
+
+.block h3 {
+    color: #fff;
+    font-size: 21px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.block .top h4 {
+    color: #fff;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.block .main {
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+}
+
+.paparazzi .main {padding-top: 20px;}
+.paparazzi img {width: 336px; margin-bottom: 10px;}
+
+.paparazzi .large_button span {
+    text-align: center;
+    width: 120px; /* 120 */
+}
+
+#navigation1 .large_button {
+	padding-right: 4px;
+}
+
+#navigation1 .large_button span {
+    text-align:center;
+    width: 80px;
+j    margin-left:-3px;
+    padding-right:0px;
+	padding-left: 1px;
+
+}
+
+#navigation2 .large_button span {
+    text-align:center;
+    width: 80px;
+    margin-left:-3px;
+    padding-right:0px;
+
+}
+
+.large_button span {
+    width: 100px;
+    background: url(../img/large_button_left.png) no-repeat;
+    height: 48px;
+    display: inline-block;
+    padding-top: 13px;
+    margin-left:-1px;
+    padding-left: 10px; /* 20 */
+    padding-right: 0px; /* 10 */
+    color: #2a2a2a;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.4);
+}
+
+.paparazzi .large_button span {
+    padding-left: 20px; /* 20 */
+    padding-right: 10px; /* 10 */
+
+}
+
+.not_button {
+	background: #eee;
+	color: #000;
+	padding: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 3px;
+	font-size: 15px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	text-decoration: none;
+}
+
+.large_button {
+    background: url(../img/large_button_right.png) no-repeat right;
+    height: 48px;
+    display: inline-block;
+    padding-right: 11px;
+    margin: 0 3px 0 3px;
+    cursor: pointer;
+}
+
+ul.photos {margin-top: 10px;}
+
+ul.photos .caption {margin-top: -5px; margin-left: 10px; font-weight: bold;}
+
+ul.photos li {margin-top: 20px;}
+
+ul.photos li img {background: url(../img/paparazzi_backgrounds.png) no-repeat}
+
+.paparazzi .small_arrow {float: right; margin-right: 20px;}
+
+.idea {background: url(../img/idea_seperator.png) no-repeat top; padding-top: 20px; clear: both; margin-top: 40px;}
+
+.idea h4 {font-weight: bold; font-size: 20px;}
+
+.idea h5 {font-size: 16px; margin-bottom: 15px;}
+
+.idea ul li {
+    background: url(../img/tweet_divider.png) no-repeat bottom center; 
+    padding-bottom: 15px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.cam .main {padding-top: 20px;}
+.cam .large_button, .cam .small_arrow {float: right; margin-right: 10px;}
+.cam .small_arrow {margin-top: -25px;}
+.cam .description {float: left; margin-bottom: 50px; margin-left: 10px;}
+.cam ul {margin-left: 18px; margin-top: 10px;}
+.cam ul li {list-style-type: disc; padding-left: 0px;}
+
+#launchcam
+{
+	width:285px;
+}
+
+.cam .main h4 {
+    font-size: 20px;
+    font-weight: normal;
+    clear: both;
+    width: 300px;
+    margin-left: 10px;
+}
+
+.cam h5 {
+    font-size: 16px;
+}
+
+.shirt {
+    float: left;
+    width: 277px;
+    background: url(../img/shirt_divider.png) no-repeat right;
+}
+
+/* .shirt img {margin-left: 30px;} */
+/* .sticker img {margin-left: 70px;} */
+
+.tattoo {
+    float: right;
+    width: 260px;
+}
+
+.item .description {
+    background: url(../img/description_background.png) no-repeat;
+    width: 228px;
+    height: 71px;
+    padding-top: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.description h5 {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.description p {
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+.small_arrow span {
+    background: url(../img/small_arrow_left.png) no-repeat;
+    height: 26px;
+    display: inline-block;
+    padding-top: 4px;
+    padding-left: 20px;
+    color: #1b1b28;
+    font-weight: bold;
+    font-size: 13px;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.4);
+}
+
+.small_arrow {
+    background: urL(../img/small_arrow_right.png) no-repeat right;
+    height: 26px;
+    display: inline-block;
+    padding-right: 24px;
+    cursor: pointer;
+}
+
+.merch .small_arrow {float: right; margin-top: 30px; margin-right: 10px;}
+
+.tweet_list li {
+    margin-left: -12px; 
+    width: 370px; 
+    background: url(../img/tweet_divider.png) no-repeat bottom center; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: auto;
+}
+
+.tweet_list li:last-child {background: none;}
+
+.tweet_avatar {
+    margin-left: 25px;
+    float: left;
+}
+
+.tweet_time, .tweet_text {width: 250px; margin-right: 20px;float: right; clear: right;}
+
+.footer {text-align: center; border-top: 1px dotted #fff; padding-top: 50px; padding-bottom: 50px; margin-left: 65px; margin-right: 65px;}
+.footer .nav {margin-bottom: 20px;}
+.footer .nav li {display: inline; font-size: 16px;}
+.footer .nav li a {padding-left: 5px; padding-right: 10px; padding-left: 10px; border-left: 1px solid #fff;}
+.footer .nav li.first a {border-left: none;}
+.footer .copyleft {font-size: 14px;}
+
+#detailer {
+    position: absolute;
+    background: red; 
+    solid #fff; 
+    height: 50px;
+    margin-top: 60px; 
+    display: none;
+    background: #dbdbdb;
+    width: 528px;
+}
+
+#detailer p {
+    margin:-15px 0 0 0;
+    font-size: 9px;
+    font-weight:normal;
+    font-style:italic;
+}
+
+#detailer input {
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px;
+    width: 149px;
+    height: 15px;
+    background: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #666;
+    margin-right: 5px;
+}
+
+
+/* SLIDESHOW */
+
+.slideText {
+   overflow: hidden;
+   height: 250px;
+   font-size: 16px;
+   margin-bottom: 10px;
+}
+
+.panel .nav {
+   width: 150px;
+}
+
+#next_button {
+   width: 79px;
+}
+
+/* Slideshow controls. */
+.panel .nav, #next_button {
+   display: block;
+   margin-top: 5px;
+}
+
+.slideText h2 {
+   font-size: 16px;
+}
+
+a#next_button, ol.nav {margin-top: 3px;}
+ol.nav li a {cursor:pointer;}
+
+/* Resize the store promo images. */
+.merch .item img {
+   max-width: 250px;
+   max-height: 220px;
+}
+
+.merch .shirt img {
+   margin-left: 20px;
+}
+
+.merch .tattoo img {
+   margin-left: 20px;
+}
+
+.comingsoon {
+	width: 584px;
+	height: 485px;
+	position: absolute;
+	background: url(../img/store-coming-soon.png) no-repeat;
+	margin-left: 7px;
+	margin-top: 1px;
+}
+
+#biebercamz iframe {margin-top: 30px;}
+#biebercamz p {margin-top: 10px; width: 500px}
+label.stupid {position: absolute; z-index: 9; color: #666; font-weight: bold; font-size: 22px; padding-top: 5px; padding-left: 15px; display: none;}
+
